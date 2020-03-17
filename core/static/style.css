@@ -7,6 +7,9 @@
 body {
   background-color:#DBCDC6;
   font-family: 'Khand';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -182,4 +185,36 @@ a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.login-button {
+  color: #FCFAFA;
+  width: 100px;
+  height: 50px;
+  font-family: 'Khand';
+  font-size: 1.5rem;
+  background-color: #086788;
+  margin: .3rem;
+  padding: .5rem;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: .5rem;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: #FCFAFA;
+  color: #086788;
+}
+
+.logout {
+  
 }
