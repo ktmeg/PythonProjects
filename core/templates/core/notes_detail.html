@@ -1,11 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
-<div>
+<body>
+<div class="fullnote-title">
   {{note.title}}
+  <p class="fullnote">
   {{note.body}}
+  </p>
 </div>
 <div>
   <a href="{% url 'edit_note' note.pk %}"></a>
   <a href="{% url 'delete_note' note.pk %}"></a>
 </div>
+</body>
 {% endblock %}

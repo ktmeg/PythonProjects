@@ -6,6 +6,7 @@
 
 body {
   background-color:#DBCDC6;
+  font-family: 'Khand';
 }
 
 a {
@@ -84,14 +85,16 @@ a:hover {
 
 }
 
+.div:hover {
+  border: .5rem solid #FCFAFA;
+}
+
 .titles {
   color: #086788;
   font-family: 'Khand';
   text-decoration-line: none;
   font-size: 1.5rem;
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: wrap; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -103,8 +106,6 @@ a:hover {
   text-decoration: none;
   font-size: 1.1rem;
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: wrap; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -160,6 +161,8 @@ a:hover {
 
 .createbutton:hover {
   cursor: pointer;
+  background-color: #FCFAFA;
+  color: #086788;
 }
 
 .fullnote {
@@ -170,4 +173,13 @@ a:hover {
   align-content: space-between;
   text-align: center;
   justify-content: center;
+  margin: 3rem;
+}
+
+.fullnote-title {
+  font-size: 2rem;
+  color:#086788;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
